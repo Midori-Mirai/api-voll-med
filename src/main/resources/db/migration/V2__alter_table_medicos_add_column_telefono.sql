@@ -1,1 +1,5 @@
-alter table medicos add telefono varchar(20) not null
+ALTER TABLE medicos
+ADD telefono VARCHAR(20) NOT NULL;
+
+ALTER TABLE medicos
+MODIFY documento VARCHAR(20) NOT NULL UNIQUE;
